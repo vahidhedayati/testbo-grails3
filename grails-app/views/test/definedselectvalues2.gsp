@@ -62,7 +62,7 @@ value="4"
     <bo:selecta name="MyCity11" id="MyCity11"  
     job= "job212"
 user="${myuser ?: 'notworking' }"
-    optionKey="id" optionValue="name"
+
     
     formatting="JSON"
     domain2='ajaxdependancyselectexample.MyShops'
@@ -82,7 +82,7 @@ user="${myuser ?: 'notworking' }"
 
 
     <g:select name="MyShop12" id="MyShop125"  
-    optionKey="id" optionValue="shopName" 
+
     from="[]" required="required" noSelection="['': 'Please choose City']" 
     />
     

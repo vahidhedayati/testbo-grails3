@@ -1,4 +1,15 @@
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="layout" content="main">
+		<g:set var="entityName" value="${message(code: 'myContinent.label', default: 'MyContinent')}" />
+		<title><g:message code="default.create.label" args="[entityName]" /></title>
+	</head>
+
+
+
+	<body>
 
 
 <g:render template="menu" />
@@ -69,7 +80,7 @@
     <bo:selecta name="MyCity11" id="MyCity11"  
    job="job2" 
 		user="${myuser}"
-    optionKey="id" optionValue="name"
+
     
     
     domain2='ajaxdependancyselectexample.MyShops'
@@ -93,3 +104,5 @@
 
 	<input type=submit value=go>
 </form>
+</body>
+</html>

@@ -27,7 +27,8 @@ user="${myuser}"
 <form method=post action=example5>
 
 	
-	<bo:selecta id="MyDepartments" name="MyDepartments"
+	<bo:selecta2 id="MyDepartments" name="MyDepartments"
+	domainDepth="3"
 	job= "job32"
 user="${myuser}"
         domain='ajaxdependancyselectexample.Departments'
@@ -64,7 +65,8 @@ This example Departments has many Employee and has many Documents - both of them
 
 <form method=post action=example5>
 
-	<bo:selecta id="MyDepartments11" name="MyDepartments11"
+	<bo:selecta2 id="MyDepartments11" name="MyDepartments11"
+	domainDepth="3"
 job= "job32"
 user="${myuser}"
         domain='ajaxdependancyselectexample.Departments'
@@ -98,7 +100,8 @@ user="${myuser}"
 
 <form method=post action=example5>
 
-	<bo:selecta id="MyDepartments131" name="MyDepartments131"
+	<bo:selecta2 id="MyDepartments131" name="MyDepartments131"
+	domainDepth="4"
 job= "job32"
 user="${myuser}"
         domain='ajaxdependancyselectexample.Departments'
@@ -143,7 +146,8 @@ Please note only the first computer from each initial department selected has an
 
 <form method=post action=example5>
 			
-	<bo:selecta id="MyDepartments141" name="MyDepartments141"
+	<bo:selecta2 id="MyDepartments141" name="MyDepartments141"
+	domainDepth="4"
 		job= "job32"
 user="${myuser}"
         domain='ajaxdependancyselectexample.Departments'
@@ -182,7 +186,8 @@ user="${myuser}"
 
 
 
-<bo:selecta id="computersId141" name="computersId141"
+<bo:selecta2 id="computersId141" name="computersId141"
+domainDepth="3"
 		job= "job32"
 user="${myuser}"
 	domain2='ajaxdependancyselectexample.Os'

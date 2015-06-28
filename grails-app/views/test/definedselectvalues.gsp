@@ -13,7 +13,7 @@ job="job12"
    
 <bo:selecta id="MyContinent22" name="MyContinent2"
 job= "job12"
-user1="${bo.randomizeUser('user': 'random1') }"
+
 user="${myuser }"
     domain='ajaxdependancyselectexample.MyContinent'
     searchField='continentName'
@@ -66,7 +66,7 @@ value="1"
     <bo:selecta name="MyCity11" id="MyCity111"  
     job= "job12"
 user="${myuser }"
-    optionKey="id" optionValue="name"
+
     
     
     domain2='ajaxdependancyselectexample.MyShops'
@@ -86,7 +86,7 @@ user="${myuser }"
 
 
     <g:select name="MyShop12" id="MyShop122"  
-    optionKey="id" optionValue="shopName" 
+
     from="[]" required="required" noSelection="['': 'Please choose City']" 
     />
     
